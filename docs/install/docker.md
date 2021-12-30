@@ -19,3 +19,8 @@ services:
 A `env` file is needed where all of the environmental variables are defined.
 Using the `environment:` option in the compose file is also valid and everything is in one file.
 For the possible environment variables, please have a look in the [environment](environment.md) section.
+
+## Finishing The Install
+After starting the container, the weblogin is reachable as http://hostname:port .
+The first login will create the admin user.
+After this more advanced user configurations can be taken in DATADIR/users/<username>/.userprofile .
